@@ -153,3 +153,13 @@
    #### 当自己和别改同一个文件的同一个地方的时候，在执行git pull时更新到本地合并时会出现冲突
    * 修改冲突的文件
    * 重新提交
+
+## bug 
+
+ ### 如果出现了这样的报错
+     error: 无法推送一些引用到 'git@github.com:q397300564/practice-.git'
+     提示：更新被拒绝，因为您当前分支的最新提交落后于其对应的远程分支。
+     提示：再次推送前，先与远程变更合并（如 'git pull ...'）。详见
+     提示：'git push --help' 中的 'Note about fast-forwards' 小节。
+ #### 那么就用
+     git push -u origin +master
