@@ -61,7 +61,7 @@
 * git clone url 和　git pull 的区别？
 * 本地仓库和远程仓库的区别？
 * origin 代表什么？
-　#### git clone url 和 git pull 的区别
+ #### git clone url 和 git pull 的区别
   * 从字面意思也可以理解，都是往下拉代码，git clone 是克隆, git pull 是拉
   * 但是区别：
    * 从远程服务器克隆一个一模一样的版本库到本地，复制版本库，叫做clone (clone是将一个库
