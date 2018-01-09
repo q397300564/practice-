@@ -8,7 +8,7 @@
 
  ### clone 项目：用于把github 上的项目　clone(下载)到本地
      git clone git@github.com:q397300564/practice-.git
- * 如果这个时候提示clone 成功　就说明要设置公私钥
+ * 如果这个时候提示clone 没成功　就说明要设置公私钥
  * 如何设置公私钥：ssh-keygen -t rsa -b 4096 -C "luodan911221@gmail.com"  (这里的邮箱就是github　的邮箱)
  * 一直回车，最后在~/.ssh目录下生产了公钥id_rsa.pub和私钥id_rsa
  * 打开公钥文件id_rsa.pub 复制里面的内容
