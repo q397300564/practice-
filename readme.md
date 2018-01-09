@@ -84,7 +84,7 @@
 
  ### 本地创建一个git项目推送到远程仓库
   #### 创建一个文件夹
- 　     mkdir newProject
+       mkdir newProject
   #### 切换到新建的文件夹　newProject 中
    * 把一个文件夹初始化成一个本地git仓库
    * 注意　仓库和文件夹的区别在与仓库下有个隐藏的 .git 文件夹，里面有些信息
@@ -94,19 +94,19 @@
 　    git init
  
   #### 新建文件　index.html
-      touch index.html
+       touch index.html
    
   #### 用 vim 修改文件内容
-      vim index.html
+       vim index.html
    
-  #### 添加文件到暂存区
-      git add .
+  #### 添加文件到暂存区 
+       git add .
 　　
   #### 把暂存区的文件添加到本地仓库
-      git commit -am '修改内容的记录'
+       git commit -am '修改内容的记录'
 　　
   #### 查看本地库里记录的远程库地址
-　     git remote -v
+       git remote -v
 
   #### 这里把远程库的地址添加个标签叫origin
        git remote add origin git@github.com:q397300564/practice-.git
@@ -118,21 +118,21 @@
        git remote add gitlab git@github.com:abc/blog.git
 
   #### 推送到gitlab标签的地址上
-　  　  git push gitlab master
+       git push gitlab master
 
-  #### 删除gitlab 标签
-　　    git remote remove gitlab
+  #### 删除gitlab 标签 
+       git remote remove gitlab
 
   #### 修改origin标签对应的地址
-　　    git remote set-url origin git@github.com:jirengu/blog3.git
+       git remote set-url origin git@github.com:jirengu/blog3.git
 
-  #### 把gitlab 标签改名为 coding
+  #### 把gitlab 标签改名为 coding 
        git remote rename gitlab coding
 
  ### 分支操作
 
   #### 创建本地库box 分支
-　     git branch box
+       git branch box
 
   #### 切换到box 分支
        git checkout box
@@ -150,7 +150,7 @@
 
   #### 把box 分支上的内容合并到当前分支(master)上
 　　    git merge box
-
+      
  ### 冲突
    #### 当自己和别改同一个文件的同一个地方的时候，在执行git pull时更新到本地合并时会出现冲突
    * 修改冲突的文件
@@ -159,9 +159,9 @@
 ## bug 
 
  ### 如果出现了这样的报错
-     error: 无法推送一些引用到 'git@github.com:q397300564/practice-.git'
-     提示：更新被拒绝，因为您当前分支的最新提交落后于其对应的远程分支。
-     提示：再次推送前，先与远程变更合并（如 'git pull ...'）。详见
-     提示：'git push --help' 中的 'Note about fast-forwards' 小节。
+      error: 无法推送一些引用到 'git@github.com:q397300564/practice-.git'
+      提示：更新被拒绝，因为您当前分支的最新提交落后于其对应的远程分支。
+      提示：再次推送前，先与远程变更合并（如 'git pull ...'）。详见
+      提示：'git push --help' 中的 'Note about fast-forwards' 小节。
  #### 那么就用
-     git push -u origin +master
+      git push -u origin +master
