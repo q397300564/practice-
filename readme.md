@@ -13,8 +13,9 @@
  * 一直回车，最后在~/.ssh目录下生产了公钥id_rsa.pub和私钥id_rsa
  * 打开公钥文件id_rsa.pub 复制里面的内容
  * 打开github，点击头像进入和个人设置，找到　ssh 设置添加 ssh key 
-   
-   cd practice- (跳转到文件夹 practice- 中)
+      
+      
+       cd practice- (跳转到文件夹 practice- 中)
 
  ### 添加文件并提交
 
