@@ -106,50 +106,50 @@
       git commit -am '修改内容的记录'
 　　
   #### 查看本地库里记录的远程库地址
-　    git remote -v
+　     git remote -v
 
   #### 这里把远程库的地址添加个标签叫origin
-      git remote add origin git@github.com:q397300564/practice-.git
+       git remote add origin git@github.com:q397300564/practice-.git
 
   #### 推送到远程库地址
-      git push origin master　   
+       git push origin master　   
 
   #### 在添加一个远程库的标签
-      git remote add gitlab git@github.com:abc/blog.git
+       git remote add gitlab git@github.com:abc/blog.git
 
   #### 推送到gitlab标签的地址上
-　  　 git push gitlab master
+　  　  git push gitlab master
 
   #### 删除gitlab 标签
-　　   git remote remove gitlab
+　　    git remote remove gitlab
 
   #### 修改origin标签对应的地址
-　　   git remote set-url origin git@github.com:jirengu/blog3.git
+　　    git remote set-url origin git@github.com:jirengu/blog3.git
 
   #### 把gitlab 标签改名为 coding
-      git remote rename gitlab coding
+       git remote rename gitlab coding
 
  ### 分支操作
 
   #### 创建本地库box 分支
-　    git branch box
+　     git branch box
 
   #### 切换到box 分支
-      git checkout box
+       git checkout box
 
-      touch b.md
-      git add .
-      git commit -am 'add  b.md'
+       touch b.md
+       git add .
+       git commit -am 'add  b.md'
   
   #### 推送到origin地址的box 分支上
-      git push origin box
+       git push origin box
 
  ### 分支合并
   #### 切换到master 分支上
-      git checkout master
+       git checkout master
 
   #### 把box 分支上的内容合并到当前分支(master)上
-　　  git merge box
+　　    git merge box
 
  ### 冲突
    #### 当自己和别改同一个文件的同一个地方的时候，在执行git pull时更新到本地合并时会出现冲突
