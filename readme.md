@@ -43,10 +43,10 @@
     git add .
   * 这里需要注意，如果提交包含大量字符串，提交参数不用加m
   * 此时会进入 vim 界面, 按下 i 切换到insert模式下，进行编辑
-  * 编辑完成后按下　ESC 进入normal模式下，　输入　:wq 保存退出　vim
-
-   git commit -am 'add file'
-   git push origin master
+  * 编辑完成后按下　ESC 进入normal模式下，　输入　:wq 保存退出　vim 
+        
+        git commit -am 'add file'
+        git push origin master
 
   #### 删除文件
     rm -rf a.md (包括文件夹也可以删除　如果没有-rf 只能删除文件)
