@@ -4,12 +4,12 @@
 
  ### 起步：初次使用需要设置姓名和邮箱
      git config --global user.name "你的姓名"
-     git config --global user.email "luodan911221@gmail.com"
+     git config --global user.email "luodan921221@gmail.com"
 
  ### clone 项目：用于把github 上的项目　clone(下载)到本地
      git clone git@github.com:q397300564/practice-.git
  * 如果这个时候提示clone 没成功　就说明要设置公私钥
- * 如何设置公私钥：ssh-keygen -t rsa -b 4096 -C "luodan911221@gmail.com"  (这里的邮箱就是github　的邮箱)
+ * 如何设置公私钥：ssh-keygen -t rsa -b 4096 -C "luodan921221@gmail.com"  (这里的邮箱就是github　的邮箱)
  * 一直回车，最后在~/.ssh目录下生产了公钥id_rsa.pub和私钥id_rsa
  * 打开公钥文件id_rsa.pub 复制里面的内容
  * 打开github，点击头像进入和个人设置，找到　ssh 设置添加 ssh key 
